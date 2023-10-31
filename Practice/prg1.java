@@ -38,8 +38,7 @@ class prg1{
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the branch ID: ");
         int id = sc.nextInt();
-        if(id==1)
-            Branch1 obj = new Branch1();
+        
             
 
     }
