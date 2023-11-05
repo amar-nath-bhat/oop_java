@@ -82,6 +82,7 @@ public class Q2 {
 
         }
         t2.start();
+        sc.close();
         
     }
 }
