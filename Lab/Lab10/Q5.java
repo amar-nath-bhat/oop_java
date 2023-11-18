@@ -20,11 +20,12 @@ public class Q5{
         System.out.println("Enter no. of columns: ");
         int n = sc.nextInt();
         int arr[][]= new int[m][n];
+        validate(m, n);
         for(int i=0; i<m; i++)
                 for(int j=0; j<n; j++)
                     arr[i][j]=sc.nextInt();
         
-        validate(m, n);
+        
         System.out.println("Matrix:");
         for(int i=0; i<m; i++){
             for(int j=0; j<m; j++)

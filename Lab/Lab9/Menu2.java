@@ -52,9 +52,16 @@ public class Menu2 {
 
                     break;
 
-//                case 4:
-//                    System.out.println("Concated String is : "+string.concat(reverse(string)));
-//                    break;
+               case 4:
+                    System.out.println("Enter String 1: ");
+                    s1=sc.next();
+                    System.out.println("Enter String 2: ");
+                    s2=sc.next();
+                    String newStr="";
+                    if(s1.contains(s2))
+                        newStr = s1.replace(s2, "Hello");
+                    System.out.println("Replaced String: "+newStr);
+                    break;
                     
                 default: cont =false;
             }
